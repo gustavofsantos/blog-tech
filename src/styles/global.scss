@@ -1,0 +1,17 @@
+:root {
+  --site-background: #FFF;
+  --text-primary: #000;
+  --text-secondary: #686868;
+  --primary: red;
+}
+
+.dark-theme {
+  --site-background: #000;
+  --text-primary: #FFF;
+  --text-secondary: #686868;
+}
+
+
+html, body {
+  background-color: var(--site-background);
+}
